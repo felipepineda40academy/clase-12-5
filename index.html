@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formulario" class="m-5" onsubmit="submit_action(); return false" >
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Cuantos dias espera quedarse</label>
+          <input id="email_input" type="form-text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">el costo por noche es de 20$</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">quiere comidas</label>
+          <input id="input_contrasena" type="form-text" class="form-control" id="exampleInputPassword1">
+          <div id="emailHelp" class="form-text">el costo por comida diaria es de 10$</div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button id = "submit_button" type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <script src="./index.js"></script>
+</body>
+</html>
